@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "version": "1.0.1",
+  "short_name": "React App",
+  "name": "Create React App Sample",
+  "author": "Sagar",
+  "description": "Chrome plugin for Reminder app .",
+  "browser_action": {
+    "default_popup": "index.html"
+  },
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "permissions": ["storage"]
+}
